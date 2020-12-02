@@ -39,24 +39,5 @@ fitText("#responsive_headline")(1.2, { minFontSize: '20px', maxFontSize: '40px' 
 - Set a No-JS fallback font-size in your CSS.
 - :new: If your text is full width, you might want to **NOT** use FitText and just use CSS `vw` units instead. Supported in all major browsers.
 
-## Don't use jQuery?
-That's okay. Check out these handy non-jQuery versions maintained by other people.
-
-- [non-jQuery FitText](https://github.com/adactio/FitText.js) from @adactio
-- [Angular.js FitText.js](https://github.com/patrickmarabeas/AngularJS-FitText.js) from @patrickmarabeas
-- [AMP-HTML FitText](https://github.com/ampproject/amphtml/tree/master/extensions/amp-fit-text)
-- [FitText UMD](https://github.com/peacechen/FitText-UMD) by @peacechen
-
-## Changelog
-* `v 1.2` - Added `onorientationchange` event
-* `v 1.1` - FitText now ignores font-size and has minFontSize & maxFontSize options
-* `v 1.0.1` - Fix for broken font-size.
-* `v 1.0` - Initial Release
-
-## In Use:
-- [Trent Walton](http://trentwalton.com)
-
-If you want more exact fitting text, there are plugins for that! We recommend checking out [BigText](https://github.com/zachleat/BigText) by Zach Leatherman or [SlabText](https://github.com/freqDec/slabText) by Brian McAllister.
-
 ### Download, Fork, Commit.
 If you think you can make this better, please Download, Fork, & Commit. We'd love to see your ideas.
