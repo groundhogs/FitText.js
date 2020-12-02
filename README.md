@@ -15,7 +15,6 @@ Your text should now fluidly resize.
 If your text is resizing poorly, you'll want to turn tweak up/down "The Compressor". It works a little like a guitar amp. The default is `1`.
 
 ```javascript
-const 
 fitText("#responsive_headline")(1.2); // Turn the compressor up   (resizes more aggressively)
 fitText("#responsive_headline")(0.8); // Turn the compressor down (resizes less aggressively)
 ```
